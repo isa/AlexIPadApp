@@ -68,6 +68,8 @@
 		4A1397EC13C84EE900CA1A39 /* db_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1397C013C84EE900CA1A39 /* db_logo.png */; };
 		4A1397ED13C84EE900CA1A39 /* db_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1397C113C84EE900CA1A39 /* db_logo@2x.png */; };
 		4A1397EF13C851E500CA1A39 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1397EE13C851E500CA1A39 /* Security.framework */; };
+		D6710870144B9F1F00749E71 /* SlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D671086E144B9F1F00749E71 /* SlideViewController.m */; };
+		D6710871144B9F1F00749E71 /* SlideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D671086F144B9F1F00749E71 /* SlideViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,6 +188,9 @@
 		4A1397C013C84EE900CA1A39 /* db_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db_logo.png; sourceTree = "<group>"; };
 		4A1397C113C84EE900CA1A39 /* db_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "db_logo@2x.png"; sourceTree = "<group>"; };
 		4A1397EE13C851E500CA1A39 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D671086D144B9F1F00749E71 /* SlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideViewController.h; sourceTree = "<group>"; };
+		D671086E144B9F1F00749E71 /* SlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideViewController.m; sourceTree = "<group>"; };
+		D671086F144B9F1F00749E71 /* SlideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +261,9 @@
 				4A13974A13C84E6D00CA1A39 /* RootViewController.h */,
 				4A13974B13C84E6D00CA1A39 /* RootViewController.m */,
 				4A13973613C84E6D00CA1A39 /* Supporting Files */,
+				D671086D144B9F1F00749E71 /* SlideViewController.h */,
+				D671086E144B9F1F00749E71 /* SlideViewController.m */,
+				D671086F144B9F1F00749E71 /* SlideViewController.xib */,
 			);
 			path = Alex;
 			sourceTree = "<group>";
@@ -496,6 +504,7 @@
 				4A1397EB13C84EE900CA1A39 /* db_link_header@2x.png in Resources */,
 				4A1397EC13C84EE900CA1A39 /* db_logo.png in Resources */,
 				4A1397ED13C84EE900CA1A39 /* db_logo@2x.png in Resources */,
+				D6710871144B9F1F00749E71 /* SlideViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +577,7 @@
 				4A1397E013C84EE900CA1A39 /* NSURL+MPURLParameterAdditions.m in Sources */,
 				4A1397E113C84EE900CA1A39 /* NSURLResponse+Encoding.m in Sources */,
 				4A1397E213C84EE900CA1A39 /* NSString+Dropbox.m in Sources */,
+				D6710870144B9F1F00749E71 /* SlideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

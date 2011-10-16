@@ -16,6 +16,7 @@
 
 @implementation DetailViewController
 
+@synthesize slideViewController = _slideViewController;
 @synthesize toolbar=_toolbar;
 
 @synthesize detailItem=_detailItem;
@@ -31,6 +32,8 @@
 @synthesize chapters;
 
 @synthesize restClient;
+
+@synthesize slidesNavigation = _slidesNavigation;
 
 #pragma mark - Managing the detail item
 
@@ -119,6 +122,9 @@
 
 - (void)viewDidUnload
 {
+    [_slideViewController release];
+    _slideViewController = nil;
+    [self setSlideViewController:nil];
 	[super viewDidUnload];
 
 	// Release any retained subviews of the main view.
@@ -155,6 +161,26 @@
 }
 
 #pragma mark RestClient specific methods
+- (IBAction)showSlides:(id)sender {
+        
+    self.slideViewController.delegate = self;
+    
+    slidesNavigation = [[UINavigationController alloc]
+                                                    initWithRootViewController:self.slideViewController];
+    [self presentModalViewController:slidesNavigation animated:YES];
+    
+    // The navigation controller is now owned by the current view controller
+    // and the root view controller is owned by the navigation controller,
+    // so both objects should be released to prevent over-retention.
+    [slidesNavigation release];
+}
+
+-(void) slideClosed {
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+
+
 - (DBRestClient *) restClient {
     if (restClient == nil) {
         restClient = [[DBRestClient alloc] initWithSession:[DBSession sharedSession]];
@@ -177,7 +203,6 @@
     [self.slidesView reloadData];
 }
 
-
 #pragma mark - Memory management
 
 - (void)didReceiveMemoryWarning
@@ -196,6 +221,8 @@
     [_detailDescriptionLabel release];
     [_slidesView release];
     [_startButton release];
+    [_slideViewController release];
+    [_slidesNavigation release];
     [super dealloc];
 }
 

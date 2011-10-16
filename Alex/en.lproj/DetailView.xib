@@ -2,7 +2,7 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="7.10">
 	<data>
 		<int key="IBDocument.SystemTarget">800</int>
-		<string key="IBDocument.SystemVersion">10K540</string>
+		<string key="IBDocument.SystemVersion">10K549</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1306</string>
 		<string key="IBDocument.AppKitVersion">1038.36</string>
 		<string key="IBDocument.HIToolboxVersion">461.00</string>
@@ -12,12 +12,13 @@
 		</object>
 		<object class="NSArray" key="IBDocument.IntegratedClassDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<string>IBUITableView</string>
-			<string>IBUIToolbar</string>
-			<string>IBUIButton</string>
 			<string>IBUIView</string>
-			<string>IBUILabel</string>
 			<string>IBProxyObject</string>
+			<string>IBUILabel</string>
+			<string>IBUIToolbar</string>
+			<string>IBUIViewController</string>
+			<string>IBUITableView</string>
+			<string>IBUIButton</string>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -39,6 +40,17 @@
 			<object class="IBProxyObject" id="606714003">
 				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+			</object>
+			<object class="IBUIViewController" id="621317615">
+				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
+					<int key="IBUIStatusBarStyle">2</int>
+				</object>
+				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
+					<int key="IBUIInterfaceOrientation">1</int>
+					<int key="interfaceOrientation">1</int>
+				</object>
+				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+				<bool key="IBUIHorizontal">NO</bool>
 			</object>
 			<object class="IBUIView" id="647120888">
 				<reference key="NSNextResponder"/>
@@ -89,10 +101,11 @@
 					</object>
 					<object class="IBUIButton" id="757783506">
 						<reference key="NSNextResponder" ref="647120888"/>
-						<int key="NSvFlags">-2147483356</int>
+						<int key="NSvFlags">-2147483359</int>
 						<string key="NSFrame">{{676, 55}, {72, 37}}</string>
 						<reference key="NSSuperview" ref="647120888"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="877257966"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
@@ -120,6 +133,7 @@
 						<string key="NSFrame">{{11, 100}, {737, 904}}</string>
 						<reference key="NSSuperview" ref="647120888"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<reference key="IBUIBackgroundColor" ref="33107367"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -190,6 +204,23 @@
 					</object>
 					<int key="connectionID">72</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">showSlides:</string>
+						<reference key="source" ref="757783506"/>
+						<reference key="destination" ref="841351856"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">73</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">slideViewController</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="621317615"/>
+					</object>
+					<int key="connectionID">76</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -246,6 +277,11 @@
 						<reference key="object" ref="877257966"/>
 						<reference key="parent" ref="647120888"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">74</int>
+						<reference key="object" ref="621317615"/>
+						<reference key="parent" ref="0"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -258,6 +294,8 @@
 					<string>63.IBPluginDependency</string>
 					<string>67.IBPluginDependency</string>
 					<string>68.IBPluginDependency</string>
+					<string>74.CustomClassName</string>
+					<string>74.IBPluginDependency</string>
 					<string>8.IBEditorWindowLastContentRect</string>
 					<string>8.IBPluginDependency</string>
 				</object>
@@ -268,6 +306,8 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>SlideViewController</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>{{194, 0}, {783, 856}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -285,7 +325,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">72</int>
+			<int key="maxID">80</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -293,11 +333,23 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">DetailViewController</string>
 					<string key="superclassName">UIViewController</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">showSlides:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="actionInfosByName">
+						<string key="NS.key.0">showSlides:</string>
+						<object class="IBActionInfo" key="NS.object.0">
+							<string key="name">showSlides:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>detailDescriptionLabel</string>
+							<string>slideViewController</string>
 							<string>slidesView</string>
 							<string>startButton</string>
 							<string>toolbar</string>
@@ -305,6 +357,7 @@
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UILabel</string>
+							<string>SlideViewController</string>
 							<string>UITableView</string>
 							<string>UIButton</string>
 							<string>UIToolbar</string>
@@ -315,6 +368,7 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>detailDescriptionLabel</string>
+							<string>slideViewController</string>
 							<string>slidesView</string>
 							<string>startButton</string>
 							<string>toolbar</string>
@@ -324,6 +378,10 @@
 							<object class="IBToOneOutletInfo">
 								<string key="name">detailDescriptionLabel</string>
 								<string key="candidateClassName">UILabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">slideViewController</string>
+								<string key="candidateClassName">SlideViewController</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">slidesView</string>
@@ -342,6 +400,14 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/DetailViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SlideViewController</string>
+					<string key="superclassName">UIViewController</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/SlideViewController.h</string>
 					</object>
 				</object>
 			</object>
