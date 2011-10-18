@@ -7,17 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DropboxSDK.h"
+
+@class DBRestClient;
+
 
 @protocol SlideViewControllerDelegate <NSObject>
     - (void)slideClosed;
 @end
 
-@interface SlideViewController : UIViewController {
-
-    
+@interface SlideViewController : UIViewController<DBRestClientDelegate> {
+    DBRestClient *restClient;
+    UIImageView *slideImage;
 }
 - (IBAction)closeSlide:(id)sender;
-
+@property (nonatomic, retain) IBOutlet UIImageView *slideImage;
+@property (nonatomic, readonly) DBRestClient *restClient;
 @property (nonatomic, retain) id<SlideViewControllerDelegate> delegate;
+@property (nonatomic, retain) NSMutableArray *chapters;
 
 @end

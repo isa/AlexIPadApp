@@ -70,6 +70,7 @@
 		4A1397EF13C851E500CA1A39 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1397EE13C851E500CA1A39 /* Security.framework */; };
 		D6710870144B9F1F00749E71 /* SlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D671086E144B9F1F00749E71 /* SlideViewController.m */; };
 		D6710871144B9F1F00749E71 /* SlideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D671086F144B9F1F00749E71 /* SlideViewController.xib */; };
+		D6A032D4144BE06B005BE4E1 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6A032D3144BE06B005BE4E1 /* Entitlements.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,6 +192,7 @@
 		D671086D144B9F1F00749E71 /* SlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideViewController.h; sourceTree = "<group>"; };
 		D671086E144B9F1F00749E71 /* SlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideViewController.m; sourceTree = "<group>"; };
 		D671086F144B9F1F00749E71 /* SlideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideViewController.xib; sourceTree = "<group>"; };
+		D6A032D3144BE06B005BE4E1 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 		4A13972013C84E6D00CA1A39 = {
 			isa = PBXGroup;
 			children = (
+				D6A032D3144BE06B005BE4E1 /* Entitlements.plist */,
 				4A13973513C84E6D00CA1A39 /* Alex */,
 				4A13975813C84E6E00CA1A39 /* AlexTests */,
 				4A13972E13C84E6D00CA1A39 /* Frameworks */,
@@ -505,6 +508,7 @@
 				4A1397EC13C84EE900CA1A39 /* db_logo.png in Resources */,
 				4A1397ED13C84EE900CA1A39 /* db_logo@2x.png in Resources */,
 				D6710871144B9F1F00749E71 /* SlideViewController.xib in Resources */,
+				D6A032D4144BE06B005BE4E1 /* Entitlements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,12 +677,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: S M Sohan (ZPH446PWU3)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Alex/Alex-Prefix.pch";
 				INFOPLIST_FILE = "Alex/Alex-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -687,11 +693,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: S M Sohan (ZPH446PWU3)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Alex/Alex-Prefix.pch";
 				INFOPLIST_FILE = "Alex/Alex-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -743,6 +751,63 @@
 			};
 			name = Release;
 		};
+		D6A032D5144BE09C005BE4E1 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = "Ad Hoc";
+		};
+		D6A032D6144BE09C005BE4E1 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: S M Sohan (ZPH446PWU3)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alex/Alex-Prefix.pch";
+				INFOPLIST_FILE = "Alex/Alex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		D6A032D7144BE09C005BE4E1 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alex.app/Alex";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlexTests/AlexTests-Prefix.pch";
+				INFOPLIST_FILE = "AlexTests/AlexTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = "Ad Hoc";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -751,6 +816,7 @@
 			buildConfigurations = (
 				4A13976313C84E6E00CA1A39 /* Debug */,
 				4A13976413C84E6E00CA1A39 /* Release */,
+				D6A032D5144BE09C005BE4E1 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -760,6 +826,7 @@
 			buildConfigurations = (
 				4A13976613C84E6E00CA1A39 /* Debug */,
 				4A13976713C84E6E00CA1A39 /* Release */,
+				D6A032D6144BE09C005BE4E1 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -769,6 +836,7 @@
 			buildConfigurations = (
 				4A13976913C84E6E00CA1A39 /* Debug */,
 				4A13976A13C84E6E00CA1A39 /* Release */,
+				D6A032D7144BE09C005BE4E1 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

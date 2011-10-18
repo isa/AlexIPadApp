@@ -6,49 +6,49 @@ cProcessInfoPlistFile /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulato
 cProcessPCH /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-dywhqlehosuptcgbnqpzvahuqvxc/Alex-Prefix.pch.gch Alex/Alex-Prefix.pch normal i386 c com.apple.compilers.llvmgcc42
 cProcessPCH /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-bpelrmpboftpqgdyinsickrvgvcx/Alex-Prefix.pch.gch Alex/Alex-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/Base64Transcoder.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/Crypto/Base64Transcoder.c normal i386 c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/AlexAppDelegate.o /Users/ThoughtWorks/AlexIPadApp/Alex/AlexAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthAPIRequestLoader.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthAPIRequestLoader.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthSignatureParameter.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthSignatureParameter.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DetailViewController.o /Users/ThoughtWorks/AlexIPadApp/Alex/DetailViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/RootViewController.o /Users/ThoughtWorks/AlexIPadApp/Alex/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBAccountInfo.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBAccountInfo.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/main.o /Users/ThoughtWorks/AlexIPadApp/Alex/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBError.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBError.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBCreateAccountController.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBCreateAccountController.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBLoadingView.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBLoadingView.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBLoginController.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBLoginController.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBMetadata.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBMetadata.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBQuota.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBQuota.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBRequest.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBRequest.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBRestClient.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBRestClient.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBSession.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBSession.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/NSObject+SBJSON.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/NSString+SBJSON.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SBJSON.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SBJsonParser.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/main.o /Users/ThoughtWorks/AlexIPadApp/Alex/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/AlexAppDelegate.o /Users/ThoughtWorks/AlexIPadApp/Alex/AlexAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/RootViewController.o /Users/ThoughtWorks/AlexIPadApp/Alex/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DetailViewController.o /Users/ThoughtWorks/AlexIPadApp/Alex/DetailViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBAccountInfo.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBAccountInfo.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBLoadingView.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBLoadingView.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBCreateAccountController.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBCreateAccountController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBLoginController.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBLoginController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBRequest.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBRequest.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBQuota.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBQuota.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBMetadata.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBMetadata.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBRestClient.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBRestClient.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/NSObject+SBJSON.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SBJsonBase.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SBJsonParser.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SBJSON.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SBJsonWriter.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthAPIRequestLoader.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthAPIRequestLoader.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthAPI.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthAPI.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthAuthenticationMethod.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthAuthenticationMethod.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthAuthenticationMethodOAuth.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthAuthenticationMethodOAuth.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthConnection.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthConnection.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthURLRequest.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthURLRequest.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthAuthenticationMethodOAuth.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthAuthenticationMethodOAuth.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthSignatureParameter.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthSignatureParameter.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthCredentialConcreteStore.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthCredentialConcreteStore.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthURLResponse.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthURLResponse.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthURLRequest.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthURLRequest.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPURLRequestParameter.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPURLRequestParameter.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/NSURL+MPURLParameterAdditions.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/NSURL+MPURLParameterAdditions.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/NSString+URLEscapingAdditions.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/NSString+URLEscapingAdditions.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/NSURL+MPURLParameterAdditions.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/NSURL+MPURLParameterAdditions.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/NSURLResponse+Encoding.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/NSURLResponse+Encoding.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/NSString+Dropbox.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/NSString+Dropbox.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SlideViewController.o /Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/NSString+Dropbox.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/NSString+Dropbox.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cLd /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Alex normal i386
 cGenerateDSYMFile /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app.dSYM /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Alex
 cCopyStringsFile /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/en.lproj/InfoPlist.strings Alex/en.lproj/InfoPlist.strings
 cCompileXIB /Users/ThoughtWorks/AlexIPadApp/Alex/en.lproj/MainWindow.xib
-cCompileXIB /Users/ThoughtWorks/AlexIPadApp/Alex/en.lproj/DetailView.xib
 cCpResource DropboxSDK/Resources/db_background.png build/Debug-iphonesimulator/Alex.app/db_background.png
+cCompileXIB /Users/ThoughtWorks/AlexIPadApp/Alex/en.lproj/DetailView.xib
 cCpResource DropboxSDK/Resources/db_create_account.png build/Debug-iphonesimulator/Alex.app/db_create_account.png
 cCpResource DropboxSDK/Resources/db_create_account@2x.png build/Debug-iphonesimulator/Alex.app/db_create_account@2x.png
 cCpResource DropboxSDK/Resources/db_create_account_button.png build/Debug-iphonesimulator/Alex.app/db_create_account_button.png
@@ -60,6 +60,7 @@ cCpResource DropboxSDK/Resources/db_link_header@2x.png build/Debug-iphonesimulat
 cCpResource DropboxSDK/Resources/db_logo.png build/Debug-iphonesimulator/Alex.app/db_logo.png
 cCpResource DropboxSDK/Resources/db_logo@2x.png build/Debug-iphonesimulator/Alex.app/db_logo@2x.png
 cCompileXIB /Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.xib
+cCopyPlistFile /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Entitlements.plist Entitlements.plist
 cTouch /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
@@ -163,9 +164,9 @@ i"DropboxSDK.h"
 i"SlideViewController.h"
 
 N/Users/ThoughtWorks/AlexIPadApp/Alex/DetailViewController.m
-c000000004E9B6CDC00000000000017DA
-t1318808796
-s6106
+c000000004E9CBA150000000000001811
+t1318894101
+s6161
 i"DetailViewController.h"
 i"RootViewController.h"
 
@@ -185,21 +186,21 @@ i"DropboxSDK.h"
 i"DetailViewController.h"
 
 N/Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.h
-c000000004E9B6C64000000000000019E
-t1318808676
-s414
+c000000004E9CBD8600000000000002C8
+t1318894982
+s712
 i<UIKit/UIKit.h>
 
 N/Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.m
-c000000004E9B6C9C00000000000004FD
-t1318808732
-s1277
+c000000004E9CBF71000000000000090A
+t1318895473
+s2314
 i"SlideViewController.h"
 
 N/Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.xib
-c000000004E9B6D170000000000002AF8
-t1318808855
-s11000
+c000000004E9CBA8F0000000000002533
+t1318894223
+s9523
 
 N/Users/ThoughtWorks/AlexIPadApp/Alex/en.lproj/DetailView.xib
 c000000004E9B6AC30000000000004881
@@ -779,6 +780,11 @@ c000000004E9B66BC000000000000ABF6
 t1318807228
 s44022
 
+N/Users/ThoughtWorks/AlexIPadApp/Entitlements.plist
+c000000004E9BA8F900000000000000E1
+t1318824185
+s225
+
 N/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/Alex.LinkFileList
 c000000004E9B69930000000000001257
 t1318807955
@@ -833,8 +839,8 @@ t1318807247
 s16464
 
 N/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DetailViewController.o
-t1318808814
-s77756
+t1318895358
+s77984
 
 N/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthAPI.o
 t1318807247
@@ -909,8 +915,8 @@ t1318807247
 s3820
 
 N/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/RootViewController.o
-t1318808814
-s64340
+t1318895358
+s64388
 
 N/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SBJSON.o
 t1318807247
@@ -929,36 +935,40 @@ t1318807247
 s25504
 
 N/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SlideViewController.o
-t1318808798
-s38428
+t1318895400
+s48588
 
 N/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/main.o
 t1318807246
 s3068
 
 N/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app
-t1318808815
-s612
+t1318895400
+s646
 
 N/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app.dSYM
-t1318808814
+t1318895400
 s102
 
 N/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Alex
-t1318808814
-s372092
+t1318895400
+s373384
+
+N/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Entitlements.plist
+t1318893625
+s62
 
 N/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Info.plist
-t1318807245
-s816
+t1318893625
+s820
 
 N/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/PkgInfo
-t1318807245
+t1318893625
 s8
 
 N/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/SlideViewController.nib
-t1318808815
-s3329
+t1318894225
+s3041
 
 N/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/db_background.png
 t1318807247
@@ -1025,9 +1035,9 @@ t1318807245
 s1384880
 
 NAlex/Alex-Info.plist
-c000000004E9B66BC00000000000004E4
-t1318807228
-s1252
+c000000004E9BAB5D00000000000004E8
+t1318824797
+s1256
 
 CBuild AST from /Users/ThoughtWorks/AlexIPadApp/Alex/AlexAppDelegate.m
 r0
@@ -1145,7 +1155,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4bb1bb98a44bb441^931dbf98a44bb441^---0#1#0#--18"Check dependencies
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies49bafaf6f64cb441^d7c2fcf6f64cb441^---0#1#0#--18"Check dependencies
 
 CCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/AlexAppDelegate.o /Users/ThoughtWorks/AlexIPadApp/Alex/AlexAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s340500046.529090
@@ -1304,8 +1314,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBSession.mb79bec4e9e4bb441^6589064f9e4bb441^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBSession.m0000000000000000^1961"CompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBSession.o DropboxSDK/DBSession.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ThoughtWorks/AlexIPadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-generated-files.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-own-target-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-all-target-headers.hmap -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-project-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/include -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources/i386 -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources -F/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -include /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-bpelrmpboftpqgdyinsickrvgvcx/Alex-Prefix.pch -c /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/DBSession.m -o /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DBSession.o
 
 CCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DetailViewController.o /Users/ThoughtWorks/AlexIPadApp/Alex/DetailViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s340501614.153648
-e340501614.304708
+s340588158.321202
+e340588158.493492
 r1
 xCompileC
 xbuild/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DetailViewController.o
@@ -1314,7 +1324,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/ThoughtWorks/AlexIPadApp/Alex/DetailViewController.m6072276ea44bb441^26014e6ea44bb441^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/ThoughtWorks/AlexIPadApp/Alex/DetailViewController.m0000000000000000^1993"CompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DetailViewController.o Alex/DetailViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ThoughtWorks/AlexIPadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-generated-files.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-own-target-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-all-target-headers.hmap -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-project-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/include -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources/i386 -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources -F/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -include /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-bpelrmpboftpqgdyinsickrvgvcx/Alex-Prefix.pch -c /Users/ThoughtWorks/AlexIPadApp/Alex/DetailViewController.m -o /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DetailViewController.o
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/ThoughtWorks/AlexIPadApp/Alex/DetailViewController.m0057527ef64cb441^f8547e7ef64cb441^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/ThoughtWorks/AlexIPadApp/Alex/DetailViewController.m0000000000000000^1993"CompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DetailViewController.o Alex/DetailViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ThoughtWorks/AlexIPadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-generated-files.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-own-target-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-all-target-headers.hmap -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-project-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/include -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources/i386 -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources -F/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -include /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-bpelrmpboftpqgdyinsickrvgvcx/Alex-Prefix.pch -c /Users/ThoughtWorks/AlexIPadApp/Alex/DetailViewController.m -o /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/DetailViewController.o
 
 CCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/MPOAuthAPI.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/MPOAuthAPI.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s340500047.160736
@@ -1551,8 +1561,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/NSURLResponse+Encoding.m2cf3824f9e4bb441^abae934f9e4bb441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/NSURLResponse+Encoding.m0000000000000000^2029"CompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/NSURLResponse+Encoding.o DropboxSDK/MPOAuth/NSURLResponse+Encoding.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ThoughtWorks/AlexIPadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-generated-files.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-own-target-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-all-target-headers.hmap -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-project-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/include -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources/i386 -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources -F/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -include /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-bpelrmpboftpqgdyinsickrvgvcx/Alex-Prefix.pch -c /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/MPOAuth/NSURLResponse+Encoding.m -o /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/NSURLResponse+Encoding.o
 
 CCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/RootViewController.o /Users/ThoughtWorks/AlexIPadApp/Alex/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s340501614.154631
-e340501614.285336
+s340588158.321247
+e340588158.483738
 r1
 xCompileC
 xbuild/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/RootViewController.o
@@ -1561,7 +1571,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/ThoughtWorks/AlexIPadApp/Alex/RootViewController.m9bae276ea44bb441^520b496ea44bb441^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/ThoughtWorks/AlexIPadApp/Alex/RootViewController.m0000000000000000^1985"CompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/RootViewController.o Alex/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ThoughtWorks/AlexIPadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-generated-files.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-own-target-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-all-target-headers.hmap -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-project-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/include -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources/i386 -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources -F/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -include /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-bpelrmpboftpqgdyinsickrvgvcx/Alex-Prefix.pch -c /Users/ThoughtWorks/AlexIPadApp/Alex/RootViewController.m -o /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/RootViewController.o
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/ThoughtWorks/AlexIPadApp/Alex/RootViewController.m8657527ef64cb441^dcd57b7ef64cb441^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/ThoughtWorks/AlexIPadApp/Alex/RootViewController.m0000000000000000^1985"CompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/RootViewController.o Alex/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ThoughtWorks/AlexIPadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-generated-files.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-own-target-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-all-target-headers.hmap -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-project-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/include -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources/i386 -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources -F/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -include /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-bpelrmpboftpqgdyinsickrvgvcx/Alex-Prefix.pch -c /Users/ThoughtWorks/AlexIPadApp/Alex/RootViewController.m -o /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/RootViewController.o
 
 CCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SBJSON.o /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s340500047.041240
@@ -1616,8 +1626,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/JSON/SBJsonWriter.me944264f9e4bb441^21c8454f9e4bb441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/ThoughtWorks/AlexIPadApp/DropboxSDK/JSON/SBJsonWriter.m0000000000000000^1983"CompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SBJsonWriter.o DropboxSDK/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ThoughtWorks/AlexIPadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-generated-files.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-own-target-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-all-target-headers.hmap -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-project-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/include -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources/i386 -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources -F/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -include /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-bpelrmpboftpqgdyinsickrvgvcx/Alex-Prefix.pch -c /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/JSON/SBJsonWriter.m -o /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SBJsonWriter.o
 
 CCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SlideViewController.o /Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s340501598.552398
-e340501598.685848
+s340588279.030626
+e340588279.125534
 r1
 xCompileC
 xbuild/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SlideViewController.o
@@ -1626,7 +1636,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.m158d8d5ea44bb441^8bc3b95ea44bb441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.m0000000000000000^1989"CompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SlideViewController.o Alex/SlideViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ThoughtWorks/AlexIPadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-generated-files.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-own-target-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-all-target-headers.hmap -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-project-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/include -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources/i386 -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources -F/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -include /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-bpelrmpboftpqgdyinsickrvgvcx/Alex-Prefix.pch -c /Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.m -o /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SlideViewController.o
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.m88f407f7f64cb441^bc2220f7f64cb441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.m0000000000000000^1989"CompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SlideViewController.o Alex/SlideViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ThoughtWorks/AlexIPadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-generated-files.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-own-target-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-all-target-headers.hmap -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-project-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/include -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources/i386 -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources -F/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -include /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-bpelrmpboftpqgdyinsickrvgvcx/Alex-Prefix.pch -c /Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.m -o /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/SlideViewController.o
 
 CCompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/main.o /Users/ThoughtWorks/AlexIPadApp/Alex/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s340500046.457952
@@ -1642,12 +1652,12 @@ xcom.apple.compilers.llvmgcc42
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Compile /Users/ThoughtWorks/AlexIPadApp/Alex/main.m0c74754e9e4bb441^fe2b874e9e4bb441^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/Users/ThoughtWorks/AlexIPadApp/Alex/main.m0000000000000000^1929"CompileC build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/main.o Alex/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ThoughtWorks/AlexIPadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-generated-files.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-own-target-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-all-target-headers.hmap -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-project-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/include -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources/i386 -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources -F/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -include /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-bpelrmpboftpqgdyinsickrvgvcx/Alex-Prefix.pch -c /Users/ThoughtWorks/AlexIPadApp/Alex/main.m -o /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/main.o
 
 CCompileXIB /Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.xib
-s340501656.804196
-e340501656.840289
+s340587024.613914
+e340587025.246621
 r1
 xCompileXIB
 x/Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.xib
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compiling /Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.xib8cf5cd98a44bb441^7b32d798a44bb441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.xib0000000000000000^618"CompileXIB Alex/SlideViewController.xib    cd /Users/ThoughtWorks/AlexIPadApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/SlideViewController.nib /Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compiling /Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.xibe1439d10f24cb441^af223f11f24cb441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.xib0000000000000000^618"CompileXIB Alex/SlideViewController.xib    cd /Users/ThoughtWorks/AlexIPadApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/SlideViewController.nib /Users/ThoughtWorks/AlexIPadApp/Alex/SlideViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
 
 CCompileXIB /Users/ThoughtWorks/AlexIPadApp/Alex/en.lproj/DetailView.xib
 s340501257.705833
@@ -1664,6 +1674,15 @@ r1
 xCompileXIB
 x/Users/ThoughtWorks/AlexIPadApp/Alex/en.lproj/MainWindow.xib
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compiling /Users/ThoughtWorks/AlexIPadApp/Alex/en.lproj/MainWindow.xiba628b34f9e4bb441^91604a509e4bb441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/ThoughtWorks/AlexIPadApp/Alex/en.lproj/MainWindow.xib0000000000000000^618"CompileXIB Alex/en.lproj/MainWindow.xib    cd /Users/ThoughtWorks/AlexIPadApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/en.lproj/MainWindow.nib /Users/ThoughtWorks/AlexIPadApp/Alex/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCopyPlistFile /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Entitlements.plist Entitlements.plist
+s340586425.468870
+e340586425.472618
+r1
+xCopyPlistFile
+x/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Entitlements.plist
+xEntitlements.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection23"Copy Entitlements.plistd12178b9ef4cb441^bdfe78b9ef4cb441^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/ThoughtWorks/AlexIPadApp/Entitlements.plist0000000000000000^399"CopyPlistFile build/Debug-iphonesimulator/Alex.app/Entitlements.plist Entitlements.plist    cd /Users/ThoughtWorks/AlexIPadApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app -- Entitlements.plist
 
 CCopyStringsFile /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/en.lproj/InfoPlist.strings Alex/en.lproj/InfoPlist.strings
 s340500047.698860
@@ -1774,32 +1793,32 @@ xbuild/Debug-iphonesimulator/Alex.app/db_logo@2x.png
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/Alex.app/db_logo@2x.png0f5fba4f9e4bb441^aef0ba4f9e4bb441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/db_logo@2x.png0000204d2205f041^509"CpResource "DropboxSDK/Resources/db_logo@2x.png" "build/Debug-iphonesimulator/Alex.app/db_logo@2x.png"    cd /Users/ThoughtWorks/AlexIPadApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ThoughtWorks/AlexIPadApp/DropboxSDK/Resources/db_logo@2x.png /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app
 
 CGenerateDSYMFile /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app.dSYM /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Alex
-s340501614.355905
-e340501614.400464
+s340588279.174910
+e340588279.215886
 r1
 xGenerateDSYMFile
 x/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app.dSYM
 x/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Alex
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Generating /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app.dSYMbf2a5b6ea44bb441^4984666ea44bb441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app.dSYM/0000000000000000^454"GenerateDSYMFile build/Debug-iphonesimulator/Alex.app.dSYM build/Debug-iphonesimulator/Alex.app/Alex    cd /Users/ThoughtWorks/AlexIPadApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Alex -o /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app.dSYM
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Generating /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app.dSYM3cde2cf7f64cb441^634337f7f64cb441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app.dSYM/0000000000000000^454"GenerateDSYMFile build/Debug-iphonesimulator/Alex.app.dSYM build/Debug-iphonesimulator/Alex.app/Alex    cd /Users/ThoughtWorks/AlexIPadApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Alex -o /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app.dSYM
 
 CLd /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Alex normal i386
-s340501614.305885
-e340501614.354717
+s340588279.126685
+e340588279.173714
 r1
 xLd
 x/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Alex
 xnormal
 xi386
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Link /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Alexde714e6ea44bb441^79ce5a6ea44bb441^---0#0#0#--932"Ld build/Debug-iphonesimulator/Alex.app/Alex normal i386    cd /Users/ThoughtWorks/AlexIPadApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -F/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -filelist /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/Alex.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Security -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Alex
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Link /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Alex8d7e20f7f64cb441^b8782cf7f64cb441^---0#0#0#--932"Ld build/Debug-iphonesimulator/Alex.app/Alex normal i386    cd /Users/ThoughtWorks/AlexIPadApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -F/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -filelist /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Objects-normal/i386/Alex.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Security -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Alex
 
 CProcessInfoPlistFile /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Info.plist Alex/Alex-Info.plist
-s340500045.183514
-e340500045.187008
+s340586425.424997
+e340586425.438852
 r1
 xProcessInfoPlistFile
 x/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Info.plist
 xAlex/Alex-Info.plist
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process Alex/Alex-Info.plist520d2f4d9e4bb441^c2df2f4d9e4bb441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/ThoughtWorks/AlexIPadApp/Alex/Alex-Info.plist0000000000000000^544"ProcessInfoPlistFile build/Debug-iphonesimulator/Alex.app/Info.plist Alex/Alex-Info.plist    cd /Users/ThoughtWorks/AlexIPadApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Alex/Alex-Info.plist -genpkginfo /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process Alex/Alex-Info.plista6f06cb9ef4cb441^3e5d71b9ef4cb441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/ThoughtWorks/AlexIPadApp/Alex/Alex-Info.plist0000000000000000^544"ProcessInfoPlistFile build/Debug-iphonesimulator/Alex.app/Info.plist Alex/Alex-Info.plist    cd /Users/ThoughtWorks/AlexIPadApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Alex/Alex-Info.plist -genpkginfo /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app/Info.plist
 
 CProcessPCH /Users/ThoughtWorks/Library/Developer/Xcode/DerivedData/Alex-frqranrslgatrkdpfncyvimhhmwt/Index/PrecompiledHeaders/Alex-Prefix-byioaunwqepsqvcdpakhaxqvmydd_ast/Alex-Prefix.pch.pth Alex/Alex-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
@@ -1834,10 +1853,10 @@ xcom.apple.compilers.llvmgcc42
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Alex/Alex-Prefix.pchd2ac304d9e4bb441^db16594d9e4bb441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/ThoughtWorks/AlexIPadApp/Alex/Alex-Prefix.pch0000000000000000^1860"ProcessPCH /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-dywhqlehosuptcgbnqpzvahuqvxc/Alex-Prefix.pch.gch Alex/Alex-Prefix.pch normal i386 c com.apple.compilers.llvmgcc42    cd /Users/ThoughtWorks/AlexIPadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-generated-files.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-own-target-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-all-target-headers.hmap -iquote /Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/Alex-project-headers.hmap -I/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/include -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources/i386 -I/Users/ThoughtWorks/AlexIPadApp/build/Alex.build/Debug-iphonesimulator/Alex.build/DerivedSources -F/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator -c /Users/ThoughtWorks/AlexIPadApp/Alex/Alex-Prefix.pch -o /var/folders/IS/IShC2rX8ETCiulv3hXoG5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Alex-Prefix-dywhqlehosuptcgbnqpzvahuqvxc/Alex-Prefix.pch.gch
 
 CTouch /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app
-s340501656.843229
-e340501656.850602
+s340588279.224899
+e340588279.230801
 r1
 xTouch
 x/Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Touch /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.appe9edd798a44bb441^ecc0d998a44bb441^---0#0#0#--304"Touch build/Debug-iphonesimulator/Alex.app    cd /Users/ThoughtWorks/AlexIPadApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Touch /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app1f9e39f7f64cb441^4c163bf7f64cb441^---0#0#0#--304"Touch build/Debug-iphonesimulator/Alex.app    cd /Users/ThoughtWorks/AlexIPadApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ThoughtWorks/AlexIPadApp/build/Debug-iphonesimulator/Alex.app
 
