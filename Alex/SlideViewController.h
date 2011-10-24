@@ -19,11 +19,16 @@
 @interface SlideViewController : UIViewController<DBRestClientDelegate> {
     DBRestClient *restClient;
     UIImageView *slideImage;
+    NSInteger currentIndex;
+    UILabel *slideText;
 }
 - (IBAction)closeSlide:(id)sender;
 @property (nonatomic, retain) IBOutlet UIImageView *slideImage;
 @property (nonatomic, readonly) DBRestClient *restClient;
 @property (nonatomic, retain) id<SlideViewControllerDelegate> delegate;
 @property (nonatomic, retain) NSMutableArray *chapters;
-
+@property (nonatomic) NSInteger currentIndex;
+@property (nonatomic, retain) IBOutlet UILabel *slideText;
+- (IBAction)showNextSlide:(id)sender;
+-(void) showSlide;
 @end
