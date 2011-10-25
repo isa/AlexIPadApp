@@ -29,6 +29,6 @@
 @property (nonatomic, retain) NSMutableArray *chapters;
 @property (nonatomic) NSInteger currentIndex;
 @property (nonatomic, retain) IBOutlet UILabel *slideText;
-- (IBAction)showNextSlide:(id)sender;
+
 -(void) showSlide;
 @end

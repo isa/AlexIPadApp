@@ -46,14 +46,6 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-#pragma mark - View lifecycle
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    [self showSlide];
-}
-
 -(void) showSlide{
     NSString *currentPage = [self.chapters objectAtIndex:currentIndex];
     NSLog(@"Current Page = %@", currentPage);
@@ -63,6 +55,44 @@
     NSString *filePath = [documentsDirectory stringByAppendingPathComponent:currentPage];        
     [self.restClient loadFile:[@"/Books/Numbers/" stringByAppendingString:currentPage] intoPath:filePath];
 }
+
+
+-(void) showNextSlide{
+    currentIndex++;
+    if(currentIndex == [self.chapters count]){
+        currentIndex = 0;
+    }
+    [self showSlide];    
+}
+
+-(void) showPreviousSlide{
+    currentIndex --;
+    if(currentIndex < 0){
+        currentIndex = [self.chapters count]-1;
+    }
+    [self showSlide];
+}
+
+
+
+#pragma mark - View lifecycle
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [self showSlide];
+    
+    
+    UISwipeGestureRecognizer *recognizer = [[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(showNextSlide)]autorelease];
+    recognizer.direction = UISwipeGestureRecognizerDirectionLeft;
+    [self.view addGestureRecognizer:recognizer];
+
+    UISwipeGestureRecognizer *swipeRight = [[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(showPreviousSlide)]autorelease];
+    swipeRight.direction = UISwipeGestureRecognizerDirectionRight;
+    [self.view addGestureRecognizer:swipeRight];
+
+}
+
 
 - (void)viewDidUnload
 {
@@ -115,11 +145,4 @@
     }
 }
 
-- (IBAction)showNextSlide:(id)sender {
-    if(currentIndex == [self.chapters count]){
-        currentIndex = 0;
-    }
-    [self showSlide];    
-    ++currentIndex;        
-}
 @end
