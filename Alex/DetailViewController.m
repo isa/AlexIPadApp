@@ -164,6 +164,7 @@
 - (IBAction)showSlides:(id)sender {
         
     self.slideViewController.delegate = self;
+    self.slideViewController.book = [self.detailItem description];
     self.slideViewController.chapters = self.chapters;
     
     slidesNavigation = [[UINavigationController alloc]

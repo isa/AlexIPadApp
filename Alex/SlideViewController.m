@@ -17,6 +17,7 @@
 @synthesize restClient;
 @synthesize currentIndex;
 @synthesize slideText;
+@synthesize book;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,10 +32,11 @@
 {
     [slideImage release];
     [slideText release];
-    [super dealloc];
     [delegate release];
     [chapters release];
     [restClient release];
+    [book dealloc];
+    [super dealloc];
 }
 
 
@@ -46,14 +48,25 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
--(void) showSlide{
-    NSString *currentPage = [self.chapters objectAtIndex:currentIndex];
+-(NSString *) getCurrentPagePath:(NSString *) currentPage{
     NSLog(@"Current Page = %@", currentPage);
+    return [@"/Books/" stringByAppendingFormat:@"%@/%@", self.book, currentPage];
+}
+
+- (void) downloadFile {
     
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    NSString *documentsDirectory = [paths objectAtIndex:0];
-    NSString *filePath = [documentsDirectory stringByAppendingPathComponent:currentPage];        
-    [self.restClient loadFile:[@"/Books/Numbers/" stringByAppendingString:currentPage] intoPath:filePath];
+    if(currentIndex >= 0 && currentIndex < [self.chapters count]){        
+        NSString *currentPage = [self.chapters objectAtIndex:currentIndex];
+        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+        NSString *documentsDirectory = [paths objectAtIndex:0];
+        NSString *filePath = [documentsDirectory stringByAppendingPathComponent:currentPage];        
+        [self.restClient loadFile:[self getCurrentPagePath:currentPage] intoPath:filePath];
+    }
+
+}
+
+-(void) showSlide{        
+    [self downloadFile];
 }
 
 
@@ -72,8 +85,6 @@
     }
     [self showSlide];
 }
-
-
 
 #pragma mark - View lifecycle
 
@@ -118,24 +129,52 @@
     return restClient;
 }
 
-- (void)restClient:(DBRestClient*)client loadedFile:(NSString*)destPath{
-    NSLog(@"Got the file callback %@", destPath);
-    
-    NSLog(@"File extension %@", [destPath pathExtension]);
-    
-    
-    if([[destPath pathExtension] isEqualToString: @"txt"]){
-        NSError *error;
-        NSString * text = [NSString stringWithContentsOfFile:destPath encoding:NSASCIIStringEncoding error:&error];
-        NSLog(@"The text is %@", text);
-        [slideText setText:text];
-        [slideText setHidden:NO];
-        [slideImage setHidden:YES];
+-(void) setImageHidden:(BOOL)isHidden {
+    [self.slideImage setHidden:isHidden];
+    [self.slideText setHidden:!isHidden];    
+}
+
+- (void) showText: (NSString *) text  {
+    [slideText setText:text];
+    [self setImageHidden:YES];
+
+}
+
+-(void) showFileNameAsText:(NSString *) fileName{
+    [self showText:[[fileName lastPathComponent]stringByDeletingPathExtension]];
+}
+
+- (void) showTextSlide: (NSString *) destPath  {
+    NSError *error;
+    NSString * text = [NSString stringWithContentsOfFile:destPath encoding:NSASCIIStringEncoding error:&error];
+    if(text == NULL){
+        [self showFileNameAsText:destPath];
     }
     else{
+        [self showText: text];
+    }
+}
+
+- (void) showImageSlide: (NSString *) destPath  {
+    @try{  
         [slideImage setImage:[UIImage imageWithContentsOfFile:destPath]];        
-        [slideText setHidden:YES];
-        [slideImage setHidden:NO];
+        [self setImageHidden:NO];
+    }
+    @catch (id exception) {
+        NSLog(@"%@", exception);
+        [self showFileNameAsText:destPath];
+    }
+}
+
+- (void)restClient:(DBRestClient*)client loadedFile:(NSString*)destPath{
+
+    BOOL isTextFile = [[destPath pathExtension] isEqualToString: @"txt"];    
+    
+    if(isTextFile){
+        [self showTextSlide: destPath];
+    }    
+    else{
+        [self showImageSlide: destPath];
     }
 }
 

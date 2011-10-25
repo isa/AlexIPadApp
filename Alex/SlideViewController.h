@@ -21,6 +21,7 @@
     UIImageView *slideImage;
     NSInteger currentIndex;
     UILabel *slideText;
+    NSString *book;
 }
 - (IBAction)closeSlide:(id)sender;
 @property (nonatomic, retain) IBOutlet UIImageView *slideImage;
@@ -29,6 +30,6 @@
 @property (nonatomic, retain) NSMutableArray *chapters;
 @property (nonatomic) NSInteger currentIndex;
 @property (nonatomic, retain) IBOutlet UILabel *slideText;
-
+@property (nonatomic, retain) NSString* book;
 -(void) showSlide;
 @end
