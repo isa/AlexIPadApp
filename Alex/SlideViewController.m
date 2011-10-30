@@ -130,8 +130,14 @@
 }
 
 -(void) setImageHidden:(BOOL)isHidden {
-    [self.slideImage setHidden:isHidden];
-    [self.slideText setHidden:!isHidden];    
+    double imageAlpha = 0.0;
+    if(!isHidden){
+        imageAlpha = 1.0;
+    }
+    [UIView animateWithDuration:1.0 animations:^{
+        self.slideImage.alpha = imageAlpha;
+        self.slideText.alpha = 1.0 - imageAlpha;
+    }];
 }
 
 - (void) showText: (NSString *) text  {
@@ -157,7 +163,7 @@
 
 - (void) showImageSlide: (NSString *) destPath  {
     @try{  
-        [slideImage setImage:[UIImage imageWithContentsOfFile:destPath]];        
+        [slideImage setImage:[UIImage imageWithContentsOfFile:destPath]];       
         [self setImageHidden:NO];
     }
     @catch (id exception) {
