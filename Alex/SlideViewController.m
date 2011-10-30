@@ -134,10 +134,15 @@
     if(!isHidden){
         imageAlpha = 1.0;
     }
-    [UIView animateWithDuration:1.0 animations:^{
-        self.slideImage.alpha = imageAlpha;
-        self.slideText.alpha = 1.0 - imageAlpha;
-    }];
+    [UIView animateWithDuration:1.0 
+                          delay:0.0
+                        options:UIViewAnimationCurveEaseIn
+                     animations:^{
+                            self.slideImage.alpha = imageAlpha;
+                            self.slideText.alpha = 1.0 - imageAlpha;
+                     }
+                     completion:NULL
+     ];
 }
 
 - (void) showText: (NSString *) text  {
